@@ -9,7 +9,6 @@ class Solution:
         cur = dummy
 
         while head:
-            print(head.val)
             if head.val != val:
                 cur.next = head
                 cur = head
